@@ -1,0 +1,169 @@
+ELF Header:
+ magic number:  17791
+ Class:  ELFCLASS32
+ Data:  little-endian
+ Version:  1
+ OS/ABI:  System V ABI
+ ABI Version:   
+ Type:  2
+ Machine:   243
+ Version:  1
+ Entry point address:  0x100b0
+ Start of program headers:  64 bytes into  file
+ Start of section headers:  9376 bytes into  file
+ Flags:  0x5
+ Size of this header:  64 Bytes
+ Size of program headers:  56 Bytes
+ Number of program headers:  2 
+ Size of section headers:  64 Bytes
+ Number of section headers:  13 
+ Section header string table index:  12 
+
+
+Section Headers:
+ [  0]
+ Name:0-;  Type:0;  Address:0x0;  Offest:0x0; 
+ Size:0x0;  Entsize:0x0;  Flags:0  Link:0  Info:0  Align:0 
+ [  1]
+ Name:27-.text;  Type:1;  Address:0x100b0;  Offest:0xb0; 
+ Size:0x830;  Entsize:0x0;  Flags:6  Link:0  Info:0  Align:4 
+ [  2]
+ Name:33-.eh_fram;  Type:1;  Address:0x108e0;  Offest:0x8e0; 
+ Size:0x3c;  Entsize:0x0;  Flags:2  Link:0  Info:0  Align:8 
+ [  3]
+ Name:43-.init_ar;  Type:14;  Address:0x11000;  Offest:0x1000; 
+ Size:0x8;  Entsize:0x8;  Flags:3  Link:0  Info:0  Align:8 
+ [  4]
+ Name:55-.fini_ar;  Type:15;  Address:0x11008;  Offest:0x1008; 
+ Size:0x8;  Entsize:0x8;  Flags:3  Link:0  Info:0  Align:8 
+ [  5]
+ Name:67-.data;  Type:1;  Address:0x11010;  Offest:0x1010; 
+ Size:0x748;  Entsize:0x0;  Flags:3  Link:0  Info:0  Align:8 
+ [  6]
+ Name:73-.sdata;  Type:1;  Address:0x11758;  Offest:0x1758; 
+ Size:0x28;  Entsize:0x0;  Flags:3  Link:0  Info:0  Align:8 
+ [  7]
+ Name:80-.sbss;  Type:8;  Address:0x11780;  Offest:0x1780; 
+ Size:0x8;  Entsize:0x0;  Flags:3  Link:0  Info:0  Align:8 
+ [  8]
+ Name:86-.bss;  Type:8;  Address:0x11788;  Offest:0x1780; 
+ Size:0x48;  Entsize:0x0;  Flags:3  Link:0  Info:0  Align:8 
+ [  9]
+ Name:91-.comment;  Type:1;  Address:0x0;  Offest:0x1780; 
+ Size:0x1a;  Entsize:0x1;  Flags:48  Link:0  Info:0  Align:1 
+ [ 10]
+ Name:1-.symtab;  Type:2;  Address:0x0;  Offest:0x17a0; 
+ Size:0x948;  Entsize:0x18;  Flags:0  Link:11  Info:44  Align:8 
+ [ 11]
+ Name:9-.strtab;  Type:3;  Address:0x0;  Offest:0x20e8; 
+ Size:0x353;  Entsize:0x0;  Flags:0  Link:0  Info:0  Align:1 
+ [ 12]
+ Name:17-.shstrta;  Type:3;  Address:0x0;  Offest:0x243b; 
+ Size:0x64;  Entsize:0x0;  Flags:0  Link:0  Info:0  Align:1 
+
+
+Program Headers:
+ [  0]
+ Type:1;  Flags:5;  Offset:0;  VirtAddr:10000;  PhysAddr:10000;  FileSiz:2332;  MemSiz:2332;  Align:4096;  [  1]
+ Type:1;  Flags:6;  Offset:4096;  VirtAddr:11000;  PhysAddr:11000;  FileSiz:1920;  MemSiz:2000;  Align:4096; 
+
+Symbol table:
+ [  0]    Name:0-;  Bind:0;  Type:0;  NDX: 0;  Size: 0;  Value: 0;  
+ [  1]    Name:0-;  Bind:0;  Type:3;  NDX: 1;  Size: 0;  Value: 100b0;  
+ [  2]    Name:0-;  Bind:0;  Type:3;  NDX: 2;  Size: 0;  Value: 108e0;  
+ [  3]    Name:0-;  Bind:0;  Type:3;  NDX: 3;  Size: 0;  Value: 11000;  
+ [  4]    Name:0-;  Bind:0;  Type:3;  NDX: 4;  Size: 0;  Value: 11008;  
+ [  5]    Name:0-;  Bind:0;  Type:3;  NDX: 5;  Size: 0;  Value: 11010;  
+ [  6]    Name:0-;  Bind:0;  Type:3;  NDX: 6;  Size: 0;  Value: 11758;  
+ [  7]    Name:0-;  Bind:0;  Type:3;  NDX: 7;  Size: 0;  Value: 11780;  
+ [  8]    Name:0-;  Bind:0;  Type:3;  NDX: 8;  Size: 0;  Value: 11788;  
+ [  9]    Name:0-;  Bind:0;  Type:3;  NDX: 9;  Size: 0;  Value: 0;  
+ [ 10]    Name:1-crtstuff.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 11]    Name:12-__EH_FRAME_BEGIN__;  Bind:0;  Type:1;  NDX: 2;  Size: 0;  Value: 108e0;  
+ [ 12]    Name:31-deregister_tm_clones;  Bind:0;  Type:2;  NDX: 1;  Size: 0;  Value: 100f8;  
+ [ 13]    Name:33-register_tm_clones;  Bind:0;  Type:2;  NDX: 1;  Size: 0;  Value: 1011c;  
+ [ 14]    Name:52-__do_global_dtors_aux;  Bind:0;  Type:2;  NDX: 1;  Size: 0;  Value: 10148;  
+ [ 15]    Name:74-completed.5184;  Bind:0;  Type:1;  NDX: 8;  Size: 1;  Value: 11788;  
+ [ 16]    Name:89-__do_global_dtors_aux_fini_array_entry;  Bind:0;  Type:1;  NDX: 4;  Size: 0;  Value: 11008;  
+ [ 17]    Name:128-frame_dummy;  Bind:0;  Type:2;  NDX: 1;  Size: 0;  Value: 10182;  
+ [ 18]    Name:140-object.5189;  Bind:0;  Type:1;  NDX: 8;  Size: 30;  Value: 11790;  
+ [ 19]    Name:152-__frame_dummy_init_array_entry;  Bind:0;  Type:1;  NDX: 3;  Size: 0;  Value: 11000;  
+ [ 20]    Name:183-10.cpp;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 21]    Name:227-atexit.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 22]    Name:229-exit.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 23]    Name:190-fini.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 24]    Name:197-impure.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 25]    Name:206-impure_data;  Bind:0;  Type:1;  NDX: 5;  Size: 748;  Value: 11010;  
+ [ 26]    Name:218-init.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 27]    Name:225-__atexit.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 28]    Name:236-__call_atexit.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 29]    Name:252-syscalls.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 30]    Name:263-conv_stat;  Bind:0;  Type:2;  NDX: 1;  Size: 41;  Value: 104d4;  
+ [ 31]    Name:273-__internal_syscall;  Bind:0;  Type:2;  NDX: 1;  Size: 1b;  Value: 10536;  
+ [ 32]    Name:292-heap_end.2611;  Bind:0;  Type:1;  NDX: 7;  Size: 8;  Value: 11780;  
+ [ 33]    Name:306-t0.2574;  Bind:0;  Type:1;  NDX: 8;  Size: 10;  Value: 117c0;  
+ [ 34]    Name:314-errno.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 35]    Name:1-crtstuff.c;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 36]    Name:322-__FRAME_END__;  Bind:0;  Type:1;  NDX: 2;  Size: 0;  Value: 10918;  
+ [ 37]    Name:0-;  Bind:0;  Type:4;  NDX: -15;  Size: 0;  Value: 0;  
+ [ 38]    Name:336-__fini_array_end;  Bind:0;  Type:0;  NDX: 4;  Size: 0;  Value: 11010;  
+ [ 39]    Name:353-__fini_array_start;  Bind:0;  Type:0;  NDX: 4;  Size: 0;  Value: 11008;  
+ [ 40]    Name:372-__init_array_end;  Bind:0;  Type:0;  NDX: 3;  Size: 0;  Value: 11008;  
+ [ 41]    Name:389-__preinit_array_end;  Bind:0;  Type:0;  NDX: 3;  Size: 0;  Value: 11000;  
+ [ 42]    Name:409-__init_array_start;  Bind:0;  Type:0;  NDX: 3;  Size: 0;  Value: 11000;  
+ [ 43]    Name:428-__preinit_array_start;  Bind:0;  Type:0;  NDX: 3;  Size: 0;  Value: 11000;  
+ [ 44]    Name:450-fstatat;  Bind:1;  Type:2;  NDX: 1;  Size: 39;  Value: 10664;  
+ [ 45]    Name:458-sysconf;  Bind:1;  Type:2;  NDX: 1;  Size: 13;  Value: 1084e;  
+ [ 46]    Name:466-__global_pointer$;  Bind:1;  Type:0;  NDX: 6;  Size: 0;  Value: 11f58;  
+ [ 47]    Name:484-utime;  Bind:1;  Type:2;  NDX: 1;  Size: 3;  Value: 1083a;  
+ [ 48]    Name:490-b;  Bind:1;  Type:1;  NDX: 6;  Size: 4;  Value: 11764;  
+ [ 49]    Name:492-faccessat;  Bind:1;  Type:2;  NDX: 1;  Size: 1f;  Value: 106ba;  
+ [ 50]    Name:502-__errno;  Bind:1;  Type:2;  NDX: 1;  Size: 5;  Value: 108d8;  
+ [ 51]    Name:510-times;  Bind:1;  Type:2;  NDX: 1;  Size: 61;  Value: 107cc;  
+ [ 52]    Name:516-execve;  Bind:1;  Type:2;  NDX: 1;  Size: 17;  Value: 10732;  
+ [ 53]    Name:523-getpid;  Bind:1;  Type:2;  NDX: 1;  Size: 3;  Value: 1075e;  
+ [ 54]    Name:530-__TMC_END__;  Bind:1;  Type:1;  NDX: 6;  Size: 0;  Value: 11758;  
+ [ 55]    Name:542-isatty;  Bind:1;  Type:2;  NDX: 1;  Size: 1d;  Value: 1078e;  
+ [ 56]    Name:549-__dso_handle;  Bind:1;  Type:1;  NDX: 6;  Size: 0;  Value: 11758;  
+ [ 57]    Name:562-lseek;  Bind:1;  Type:2;  NDX: 1;  Size: 13;  Value: 1058e;  
+ [ 58]    Name:568-_global_impure_ptr;  Bind:1;  Type:1;  NDX: 6;  Size: 8;  Value: 11770;  
+ [ 59]    Name:587-chown;  Bind:1;  Type:2;  NDX: 1;  Size: 3;  Value: 1083e;  
+ [ 60]    Name:593-__libc_init_array;  Bind:1;  Type:2;  NDX: 1;  Size: 65;  Value: 102ac;  
+ [ 61]    Name:611-chmod;  Bind:1;  Type:2;  NDX: 1;  Size: 3;  Value: 10842;  
+ [ 62]    Name:617-_init;  Bind:1;  Type:2;  NDX: 1;  Size: 2;  Value: 100f6;  
+ [ 63]    Name:623-__libc_fini_array;  Bind:1;  Type:2;  NDX: 1;  Size: 4b;  Value: 1025e;  
+ [ 64]    Name:641-write;  Bind:1;  Type:2;  NDX: 1;  Size: 13;  Value: 105b2;  
+ [ 65]    Name:647-fstat;  Bind:1;  Type:2;  NDX: 1;  Size: 31;  Value: 105c6;  
+ [ 66]    Name:653-kill;  Bind:1;  Type:2;  NDX: 1;  Size: 13;  Value: 10762;  
+ [ 67]    Name:658-chdir;  Bind:1;  Type:2;  NDX: 1;  Size: 3;  Value: 10846;  
+ [ 68]    Name:664-wait;  Bind:1;  Type:2;  NDX: 1;  Size: 17;  Value: 10776;  
+ [ 69]    Name:669-__call_exitprocs;  Bind:1;  Type:2;  NDX: 1;  Size: ad;  Value: 10424;  
+ [ 70]    Name:768-_start;  Bind:1;  Type:2;  NDX: 1;  Size: 46;  Value: 100b0;  
+ [ 71]    Name:686-lstat;  Bind:1;  Type:2;  NDX: 1;  Size: 31;  Value: 10632;  
+ [ 72]    Name:692-read;  Bind:1;  Type:2;  NDX: 1;  Size: f;  Value: 105a2;  
+ [ 73]    Name:697-__register_exitproc;  Bind:1;  Type:2;  NDX: 1;  Size: 63;  Value: 103be;  
+ [ 74]    Name:717-unlink;  Bind:1;  Type:2;  NDX: 1;  Size: 1b;  Value: 10716;  
+ [ 75]    Name:204-c;  Bind:1;  Type:1;  NDX: 6;  Size: 4;  Value: 11768;  
+ [ 76]    Name:724-fork;  Bind:1;  Type:2;  NDX: 1;  Size: 13;  Value: 1074a;  
+ [ 77]    Name:729-__syscall_error;  Bind:1;  Type:2;  NDX: 1;  Size: 1f;  Value: 10516;  
+ [ 78]    Name:745-sbrk;  Bind:1;  Type:2;  NDX: 1;  Size: 5b;  Value: 10862;  
+ [ 79]    Name:750-gettimeofday;  Bind:1;  Type:2;  NDX: 1;  Size: 1f;  Value: 107ac;  
+ [ 80]    Name:763-__bss_start;  Bind:1;  Type:0;  NDX: 7;  Size: 0;  Value: 11780;  
+ [ 81]    Name:775-memset;  Bind:1;  Type:2;  NDX: 1;  Size: aa;  Value: 10314;  
+ [ 82]    Name:782-main;  Bind:1;  Type:2;  NDX: 1;  Size: 7b;  Value: 101ac;  
+ [ 83]    Name:787-getcwd;  Bind:1;  Type:2;  NDX: 1;  Size: 3;  Value: 1084a;  
+ [ 84]    Name:794-_fini;  Bind:1;  Type:2;  NDX: 1;  Size: 2;  Value: 100f6;  
+ [ 85]    Name:800-atexit;  Bind:1;  Type:2;  NDX: 1;  Size: b;  Value: 1022c;  
+ [ 86]    Name:575-_impure_ptr;  Bind:1;  Type:1;  NDX: 6;  Size: 8;  Value: 11778;  
+ [ 87]    Name:807-ftime;  Bind:1;  Type:2;  NDX: 1;  Size: b;  Value: 1082e;  
+ [ 88]    Name:268-stat;  Bind:1;  Type:2;  NDX: 1;  Size: 39;  Value: 105f8;  
+ [ 89]    Name:813-access;  Bind:1;  Type:2;  NDX: 1;  Size: 1b;  Value: 1069e;  
+ [ 90]    Name:820-_edata;  Bind:1;  Type:0;  NDX: 6;  Size: 0;  Value: 11780;  
+ [ 91]    Name:348-_end;  Bind:1;  Type:0;  NDX: 8;  Size: 0;  Value: 117d0;  
+ [ 92]    Name:719-link;  Bind:1;  Type:2;  NDX: 1;  Size: 1f;  Value: 106f6;  
+ [ 93]    Name:835-exit;  Bind:1;  Type:2;  NDX: 1;  Size: 21;  Value: 1023a;  
+ [ 94]    Name:216-a;  Bind:1;  Type:1;  NDX: 6;  Size: 4;  Value: 11760;  
+ [ 95]    Name:827-openat;  Bind:1;  Type:2;  NDX: 1;  Size: 1b;  Value: 10572;  
+ [ 96]    Name:834-_exit;  Bind:1;  Type:2;  NDX: 1;  Size: 19;  Value: 108be;  
+ [ 97]    Name:840-open;  Bind:1;  Type:2;  NDX: 1;  Size: 1f;  Value: 10552;  
+ [ 98]    Name:845-close;  Bind:1;  Type:2;  NDX: 1;  Size: 1b;  Value: 106da;  

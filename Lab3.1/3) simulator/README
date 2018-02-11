@@ -1,0 +1,4 @@
+./riscv-template中为模拟器代码，Makefile为编译文件，elf为解析elf得到的文件，包含了本次lab新增的cache、memory和MultiLayerMemory部分，用于模拟Cache部分内容。
+./samples中为测试代码，包括lab2.1中的五个测试样例和本次lab2.2的十个测试样例。
+./run.sh为测试单个样例的执行脚本，利用RISC-V工具链编译产生ELF文件，然后通过实现的模拟器运行。需要三个参数：测试代码文件名（代码位于samples中）、单步模式（1为单步模式）、处理器模式（0为单周期处理器，1为多周期处理器，2为流水线处理器）。
+./README为本文件。

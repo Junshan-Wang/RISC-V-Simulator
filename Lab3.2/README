@@ -1,0 +1,4 @@
+main.cc为主程序。
+sim为可执行文件，以命令行参数的形式指定trace文件（放在trace子目录下），例：./sim 01-mcf-gem5-xcg.trace
+Makefile为编译文件。
+./run.sh为执行脚本，编译后执行sim，同样需要参数执行trace文件，例：./run.sh 01-mcf-gem5-xcg.trace
